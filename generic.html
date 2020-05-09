@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Editorial by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Ch1 - Functions and Polynomials</h1>
+									</header>
+
+									<h2>1A - Introduction to Functions</h2>
+									<h3>What is a function?</h3>
+									<p>A <b>function</b> is a rule that receives an input (the x-value) and produces a single output (the y-value). In this definition, it is important to note the words "single output", as this will distinguish whether an equation represents a function or a relation. A straightforward way of distinguishing between a function and a relation is through the vertical line test.</p>
+									<div class="box">
+										<p><b>Vertical-line test:</b> any vertical line drawn on the graph of a function must only intercept the graph once.</p>
+									</div>
+
+									<div class="row">
+										<div class="col-2 col-12-medium"></div>
+										<div class="col-4 col-12-medium">
+											<span class="image fit"><img src="images/mm_ch1_passverticallinetest.png" alt="" /></span>
+											<p>y=x^2 passes the vertical line test and is a function</p>
+										</div>
+										<div class="col-4 col-12-medium">
+											<span class="image fit"><img src="images/mm_ch1_failverticallinetest.png" alt="" /></span>
+											<p>y^2=x fails the vertical line test and is not a function</p>
+										</div>
+										<div class="col-2 col-12-medium"></div>
+									</div>
+									<p>Although we have noted that the left graph is a function, it is important to realise that it is also a relation. A relation is simply a set of inputs and outputs, and therefore all functions are relations.</p>
+
+									<h3>Function Notation</h3>
+									<p>Functions are most commonly denoted by the symbol <b>f(x)</b> (read as "f-of-x"), which means that an equation named f, has an input variable called x. Each function may be represented differently, such as; y, g(x), v(t), A(r), in these cases all that is changing is the name of the function and which symbol we choose to represent the input variable. </p>
+									<p>For a function, f(x)=5x^2  we can see that the function is dependent on x and replacing the variable x with a number or expression will accordingly replace all the x's in the function's rule.</p>
+									<p>It is also important, and may seem obvious, to remember that functions are exactly the same as "y", using functions just allows greater flexibility and provides more information, especially when keeping track of multiple formulas.</p>
+
+									<h3>Types of Correspondence</h3>
+									<p>Functions and relations can be classified according to the correspondence between inputs and outputs, resulting in four possible types. These types can each be viewed as the "number of x-values"-to-"number of y-values", and are as follows:</p>
+									<ul style="padding-left:72px;margin-top:-18px">
+										<li><b><i>One-to-one</i></b> ("one x-value to one y-value")</li>
+										<li><b><i>Many-to-one</i></b> ("many x-values to one y-value")</li>
+										<li><b><i>One-to-many</i></b> ("one x-values to many y-value")</li>
+										<li><b><i>Many-to-many</i></b> ("many x-values to many y-value")</li>
+									</ul>
+									<p>	We see that one-to-one and many-to-one correspondences pass vertical line test and are therefore functions. Whilst one-to-many and many-to-many correspondences do not pass the vertical and are therefore not functions (but are relations)</p>
+
+									<hr class="major" />
+
+									<h2>1B - Domain and Range</h2>
+									<h3>Maximal/Implied Domain</h3>
+									<p>Functions are often written without specifying a domain, in this case a function will take on its maximal or implied domain - this is the largest subset of all real numbers, R for which the function's rule will be defined. To simplify things, we only need to look for two cases in which the maximal domain of a function is restricted.</p>
+									<p>The <b>maximal domain</b> of any function must exclude:</p>
+									<ul style="padding-left:72px;margin-top:-18px">
+										<li>Any input that would result in a denominator becoming zero (dividing by zero - resulting in the graph having a vertical asymptote and being discontinuous)</li>
+										<li>Any input that would result in a negative number in a square root (no real solutions - resulting in the graph not existing)</li>
+									</ul>
+									<p>	In the following sections, where our focus is on polynomial functions, the maximal or implied domains will always be R. Note that there may be additional cases to these two if the function appears in an application style question. A common example is when the question involves time as the input variable, since time cannot logically be negative this implies that the domain is restricted from negative numbers regardless of the function's rule.
+									</p>
+
+									<hr class="major" />
+
+									<h2>1C - Linear Functions</h2>
+									<p>The linear function is the simplest polynomial that we will encounter and is also the simplest function for us to graph - a straight line.</p>
+									<h3>Gradient</h3>
+									<p>The gradient, or slope, of a linear function represents the increase (or decrease) in the y-direction for every unit travelled in the x-direction. his can be calculated through the use of any two points on the line; (x_1,y_1 )  and (x_2,y_2 ), and the rise over run formula: m=((y_2−y_1 ))/(x_2−x_1 ). Also recall that regardless of which two points we have chosen on the linear function, the gradient will be the same since it is a straight line - however, this will not be the case for other functions, such as quadratics.</p>
+									<p>Other important formulas regarding the gradient involve parallel lines, which will share the same gradient, and perpendicular lines, which will evaluate to -1 when the gradients are multiplied.</p>
+									<ul style="padding-left:72px;margin-top:-18px">
+										<li>For parallel lines: m_1=m_2</li>
+										<li>For perpendicular lines m_1 m_2=−1 </li>
+									</ul>
+									<p>	It will also be useful to convert between the gradient, m, and the angle of the slope, by using m=tan^-1(θ), where θ is the angle between the line and the positive direction of the x-axis.</p>
+
+									<h3>Equation of a Linear Function</h3>
+									<p>The equation of a linear function should always be expressed in the gradient-intercept form: y=mx+c, where m is the gradient and c is the y-intercept. This is the form that examiners will expect answers to be in, unless specified otherwise. </p>
+									<p>Another form that will be useful for working out is y−y_1=m(x−x_1 ), this involves a point knowing a point on the line (x_1,y_1 )  and the gradient m. However, when using this form remember to rearrange to y=mx+c for the final answer.</p>
+
+									<hr class="major" />
+
+									<h2>1D - Quadratic Functions</h2>
+									<p>Quadratics are second degree polynomials, that are graphed as parabolas. The quadratic is one of the most common polynomials in Mathematical Methods and are commonly expressed in the form ax^2+bx+c.</p>
+									<ul>
+										<li>One-to-one ("one x-value to one y-value")</li>
+										<li>Many-to-one ("many x-values to one y-value")</li>
+										<li>One-to-many ("one x-values to many y-value")</li>
+										<li>Many-to-many ("many x-values to many y-value")</li>
+									</ul>
+									<p>	We see that one-to-one and many-to-one correspondences pass vertical line test and are therefore functions. Whilst one-to-many and many-to-many correspondences do not pass the vertical and are therefore not functions (but are relations)</p>
+
+									<hr class="major" />
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+				<div id="sidebar">
+					<div class="inner">
+
+						<!-- Menu -->
+						<nav id="menu">
+							<header class="major">
+								<h2><a href="homepage.html">RAW50 Notes</a></h2>
+							</header>
+							<ul>
+								<li>
+									<span class="opener">Math Methods 3&4</span>
+									<ul>
+										<li><a href="generic.html">Ch1 - Functions and Polynomials</a></li>
+										<li><a href="#">Ch2 - Circular Functions</a></li>
+										<li><a href="#">Ch3 - Functions Continued</a></li>
+										<li><a href="#">Ch4 - Transformations</a></li>
+										<li><a href="#">Ch5 - Exponential and Logarithms</a></li>
+										<li><a href="#">Ch6 - Differentiation</a></li>
+										<li><a href="#">Ch7 - Differentiation Rules and Applications</a></li>
+										<li><a href="#">Ch8 - Integration</a></li>
+										<li><a href="#">Ch9 - Discrete Random Variables</a></li>
+										<li><a href="#">Ch10 - Binomial Distributions</a></li>
+										<li><a href="#">Ch11 - Continuous Random Variables</a></li>
+										<li><a href="#">Ch12 - Normal Distributions</a></li>
+										<li><a href="#">Ch13 - Statistical Inference</a></li>
+									</ul>
+								</li>
+								<li>
+									<span class="opener">Specialist Maths 3&4</span>
+									<ul>
+										<li><a href="#">Lorem Dolor</a></li>
+										<li><a href="#">Ipsum Adipiscing</a></li>
+										<li><a href="#">Tempus Magna</a></li>
+										<li><a href="#">Feugiat Veroeros</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Study Resources</a></li>
+								<li><a href="#">About Us</a></li>
+							</ul>
+						</nav>
+
+						<!-- Section -->
+						<section>
+							<header class="major">
+								<h2>Our Products</h2>
+							</header>
+							<div class="mini-posts">
+								<article>
+									<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+									<p>Math Methods 1&2 Notes</p>
+								</article>
+								<article>
+									<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+									<p>Math Methods 3&4 Notes</p>
+								</article>
+								<article>
+									<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+									<p>Specialist Maths 1&2 Notes</p>
+								</article>
+								<article>
+									<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+									<p>Specialist Maths 3&4 Notes</p>
+								</article>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Find Out More</a></li>
+							</ul>
+						</section>
+
+						<!-- Section -->
+						<section>
+							<header class="major">
+								<h2>Get in touch</h2>
+							</header>
+							<p>Drop us a message below for anything you need!</p>
+							<ul class="contact">
+								<li class="icon solid fa-envelope"><a href="#">contact@raw50notes.com.au</a></li>
+								<li class="icon solid fa-phone">(+61) 450 999 457</li>
+								<li class="icon solid fa-home">PO Box 12<br />
+									Melbourne, VIC 3000</li>
+							</ul>
+						</section>
+
+						<!-- Footer -->
+						<footer id="footer">
+							<p class="copyright">&copy; RAW50 Notes. All rights reserved. Note: We are not affiliated with VCAA or VTAC nor are they responsible for any of the content that appears on this website. </p>
+						</footer>
+					</div>
+				</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
